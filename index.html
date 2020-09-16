@@ -14,31 +14,35 @@
         <h1 class="logo-text">ottergram</h1>
     </header>
     <main class="main-content"></main>
+
+
+
+
     <ul class="thumbnail-list">
         <li class="thumbnail-item">
             <a href="img/otter1.jpg" data-image-role="trigger" data-image-title="Stayin' Alive"
-                data-image-url="img/otter1.jpg">
+                data-image-url="img/otter1.jpg" data-image-order="1">
                 <img class="thumbnail-image" src="img/otter1.jpg" alt="Barry the Otter">
                 <span class="thumbnail-title">Barry</span>
             </a>
         </li>
         <li class="thumbnail-item">
             <a href="img/otter2.jpg" data-image-role="trigger" data-image-title="How Deep Is Your Love"
-                data-image-url="img/otter2.jpg">
+                data-image-url="img/otter2.jpg" data-image-order="2">
                 <img class="thumbnail-image" src="img/otter2.jpg" alt="Robin the Otter">
                 <span class="thumbnail-title">Robin</span>
             </a>
         </li>
         <li class="thumbnail-item">
             <a href="img/otter3.jpg" data-image-role="trigger" data-image-title="You Should Be Dancing"
-                data-image-url="img/otter3.jpg">
+                data-image-url="img/otter3.jpg" data-image-order="3">
                 <img class="thumbnail-image" src="img/otter3.jpg" alt="Maurice the Otter">
                 <span class="thumbnail-title">Maurice</span>
             </a>
         </li>
         <li class="thumbnail-item">
             <a href="img/otter4.jpg" data-image-role="trigger" data-image-title="Night Fever"
-                data-image-url="img/otter4.jpg">
+                data-image-url="img/otter4.jpg" data-image-order="4">
 
                 <img class="thumbnail-image" src="img/otter4.jpg" alt="Lesley the Otter">
                 <span class="thumbnail-title">Lesley</span>
@@ -46,21 +50,23 @@
         </li>
         <li class="thumbnail-item">
             <a href="img/otter5.jpg" data-image-role="trigger" data-image-title="To Love Somebody"
-                data-image-url="img/otter5.jpg">
+                data-image-url="img/otter5.jpg" data-image-order="5">
                 <img class="thumbnail-image" src="img/otter5.jpg" alt="Barbara the Otter">
                 <span class="thumbnail-title">Barbara</span>
             </a>
         </li>
     </ul>
+
+
     <div class="detail-image-container">
-
-        <div class="detail-image-frame" data-image-role="frame">
-            <img class="detail-image" data-image-role="target" src="img/otter1.jpg" alt="">
-            <span class="detail-image-title" data-image-role="title">Stayin' Alive</span>
-
-        </div>
-
+        <a href="#" class="previous button">
+            <</a> <div class="detail-image-frame" data-image-role="frame">
+                <img class="detail-image" data-image-role="target" src="img/otter1.jpg" alt="" data-image-order="1">
+                <span class="detail-image-title" data-image-role="title">Stayin' Alive</span>
     </div>
+    <a href="#" class="next button">></a>
+    </div>
+
 
     </main>
     <script src="scripts/main.js" charset="utf-8"></script>
